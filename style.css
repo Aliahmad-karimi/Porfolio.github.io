@@ -1,0 +1,109 @@
+section {
+    height: 718px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    border-radius: [object Object]px;
+    background-image: url("images/header-shapes\ mobile.png");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    }
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toolbar .logo {
+    width: 76px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    flex: 1 1 40%;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.toolbar img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.container {
+    padding: 20px;
+}
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 50px;
+}
+.welcome h2 {
+width: 327px;
+height: 150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.welcome .details {
+    width: 327px;
+    height: 146px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+.social {
+        display: flex;
+        flex-wrap: wrap;
+        width: 170.17px;
+        height: 20px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        }
+.social .connect {
+    width: 117px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    flex: 1 1 90%;
+    order: 0;
+    flex-grow: 0;
+}
+.social .sIcon {
+    padding-left: 20px;
+}
