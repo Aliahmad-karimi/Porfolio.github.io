@@ -3,7 +3,7 @@ section {
   width: 375px;
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-position: 0px;
+  background-position: 0;
 }
 
 body {
