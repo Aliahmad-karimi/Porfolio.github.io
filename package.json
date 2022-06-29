@@ -1,0 +1,20 @@
+{
+  "name": "My-Portfolio",
+  "version": "1.0.0",
+  "description": "Showing to the world my abilities inside this Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliahmad-karimi/My-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliahmad-karimi/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Aliahmad-karimi/My-Portfolio#readme"
+}
