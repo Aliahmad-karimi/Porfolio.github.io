@@ -5,12 +5,15 @@
   background-repeat: no-repeat;
   background-position: 0;
   padding-bottom: 114px;
+  border-bottom-right-radius: 30px;
 }
 
 body {
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: auto;
+  /* display: grid;
+  grid-template-columns: auto; */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 375px;
