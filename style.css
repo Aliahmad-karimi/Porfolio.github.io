@@ -10,6 +10,7 @@
 
 body {
   min-height: 100vh;
+
   /* display: grid;
   grid-template-columns: auto; */
   display: flex;
@@ -132,7 +133,7 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-bottom: 50px;
@@ -207,6 +208,17 @@ body {
   display: flex;
   flex-direction: row;
   padding: 4px 12px;
+}
+
+.sort .lang {
+  width: 327px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 36px;
 }
 
 .content-project1 .lan .lang {
@@ -330,7 +342,7 @@ body {
   border-radius: 8px;
   width: 162px;
   height: 48px;
-  background: #ffffff;
+  background: #fff;
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 17px;
@@ -363,22 +375,10 @@ body {
   margin-left: 0;
   margin-top: 12px;
 }
+
 .sort .langu img {
   margin-right: 16px;
   margin-left: 0;
 }
 
-.sort .lang {
-  width: 327px;
-  height: 24px;
-  font-family: 'Poppins';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-  margin-bottom: 36px;
-}
-
-.sort hr {
-  border: 1px ; 
-}
+.sort hr {border: 1px ;}
