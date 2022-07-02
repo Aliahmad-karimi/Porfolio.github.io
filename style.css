@@ -296,7 +296,7 @@ body {
 }
 
 .about-me .about h2 {
-  width: 327px;
+  width: 250px;
   height: 101px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -405,4 +405,3 @@ body {
   margin-right: 16px;
   margin-left: 0;
 }
-
