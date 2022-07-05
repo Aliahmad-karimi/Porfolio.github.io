@@ -308,9 +308,10 @@ footer .contact h2 {
   line-height: 52px;
   display: flex;
   color: #fff;
-  margin-left: 90px;
+  margin-left: 140px;
   margin-top: 103px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 footer .contact p {
@@ -322,8 +323,9 @@ footer .contact p {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-  margin-left: 60px;
-  margin-bottom: 0;
+  margin-left: 85px;
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .about-me .about h2 {
