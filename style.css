@@ -324,7 +324,6 @@ footer .contact p {
   text-align: center;
   margin-left: 60px;
   margin-bottom: 0;
-  text-align: center;
 }
 
 .about-me .about h2 {
@@ -471,7 +470,7 @@ footer #msg::placeholder {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
-  padding-left: 16px ;
+  padding-left: 16px;
 }
 
 footer #name {
@@ -498,7 +497,7 @@ footer #msg {
   height: 170px;
   background: #fff;
   border: 1px solid #cfdbdc;
-  border-radius: 8px;  
+  border-radius: 8px;
 }
 
 footer .submit {
