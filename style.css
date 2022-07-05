@@ -470,3 +470,32 @@ footer #msg {
   border: 1px solid #cfdbdc;
   border-radius: 8px;
 }
+
+footer #name::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+footer #email::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+footer #msg::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding-left: 16px;
+}
