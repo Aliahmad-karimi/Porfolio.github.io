@@ -499,6 +499,7 @@ footer #msg::placeholder {
   color: #b3bac5;
   padding-left: 16px;
 }
+
 footer .submit {
   box-sizing: border-box;
   display: flex;
@@ -528,4 +529,3 @@ footer .submit:active {
   background: #2230d2;
   color: #fff;
 }
-
