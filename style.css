@@ -615,4 +615,86 @@ body {
   height: 98px;
 }
 
+.first-project {
+  height: 496px;
+  width: 1156px;
+  border-radius: 24px;
+}
+
+.first-project .content-project1 {
+  width: 554px;
+  height: 445px;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 22px;
+}
+
+.first-project .snapshot {
+  width: 544px;
+  height: 448px;
+  background-repeat:round;
+}
+
+.first-project .snapshot1 {
+  width: 544px;
+  height: 448px;
+  background-repeat:round;
+}
+
+.first-project .snapshot2 {
+  width: 544px;
+  height: 448px;
+  background-repeat:round;
+}
+
+.first-project .snapshot3 {
+  width: 544px;
+  height: 448px;
+  background-repeat:round;
+}
+
+.first-project .content-project1 h2 {
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  width: 496px;
+}
+
+.first-project .content-project1 .ali {
+  width: 496px;
+}
+
+.first-project .content-project1 .ali .ali1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.first-project .content-project1 .ali .det {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  flex: 1 0 78%;
+}
+
+.first-project .parg {
+  width: 496px;
+  margin-bottom: 28px;
+  margin-top: 32px;
+}
+
+.first-project .parg .see-p .see-project:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.first-project .parg .see-p .see-project {
+  margin-top: 40px;
+}
+
 }
