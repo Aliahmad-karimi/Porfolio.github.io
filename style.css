@@ -587,4 +587,32 @@ body {
   margin-top: 25px;
 }
 
+.context {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 260px;
+  margin-top: 200px;
+}
+
+.container .welcome h2 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #091e42;
+  width: 600px;
+  height: 122px;
+  letter-spacing: 0.37px;
+  font-style: bold;
+  margin-bottom: 0;
+}
+
+.container .welcome .details {
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  width: 920px;
+  height: 98px;
+}
+
 }
