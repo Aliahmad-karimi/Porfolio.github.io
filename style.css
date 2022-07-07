@@ -404,12 +404,32 @@ footer .contact p {
   flex-direction: column;
 }
 
+.sort .lang {
+  margin-bottom: 297px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.sort .lang1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
 .sort .lang .arrow {
   width: 12px;
   height: 6px;
 }
 
-.sort .lang .arrow1 {
+.sort .lang1 .arrow1 {
   width: 6px;
   height: 12px;
 }
@@ -427,8 +447,14 @@ footer .contact p {
   line-height: 20px;
   display: flex;
   align-items: center;
+}
+
+.sort .langu1 {
+  margin-top: 36px;
+  margin-bottom: 36px;
   margin-left: 0;
-  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sort .langu img {
@@ -447,6 +473,17 @@ footer {
   justify-content: center;
   width: 375px;
   height: 779px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot .contact p {
+  margin-bottom: 87px;
 }
 
 footer #name {
@@ -692,5 +729,104 @@ footer .submit:active {
     background: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     color: #fff;
+  }
+
+  .about-me {
+    width: 1440px;
+    height: 924px;
+    border-top-right-radius: 100px;
+  }
+
+  .about-me .about {
+    margin-left: 142px;
+    margin-top: 142px;
+    margin-right: 25px;
+    width: 447px;
+    justify-content: stretch;
+  }
+
+  .about-me .about p {
+    width: 447px;
+    margin-top: -30px;
+  }
+
+  .about-me .about .social p {
+    margin-top: -80px;
+  }
+
+  .about-me .about .social .social-ul {
+    margin-top: -50px;
+  }
+
+  .about-me .sort {
+    margin-right: 142px;
+    margin-top: 142px;
+    flex-direction: row;
+    width: 684px;
+    height: 360px;
+  }
+
+  .about-me .sort .langu {
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    margin-right: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .about-me .sort .langu1 {
+    width: 414px;
+    height: 144px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .about-me .sort .lang {
+    margin-bottom: 192px;
+  }
+
+  about-me .sort .lang span {
+    margin-right: 100px;
+  }
+
+  .about-me .sort .lang1 {
+    width: 684px;
+  }
+
+  footer {
+    width: 1440px;
+    height: 846px;
+    background-image: url(images/contact-form-big.svg);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .contact p {
+    width: 569px;
+    text-align: center;
+    margin: 0;
+  }
+
+  footer form #name {
+    width: 447px;
+    margin-top: -200px;
+  }
+
+  footer form #email {
+    width: 447px;
+  }
+  
+  footer form #msg {
+    width: 447px;
+  }
+
+  footer form #submit {
+    margin-left: 130px;
+    flex: none;
+    order: 3;
   }
 }

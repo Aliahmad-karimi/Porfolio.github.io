@@ -67,7 +67,6 @@
         
     </section>
     <section class="first-project">
-        <div class="snapshot1"></div>
         <div class="content-project1">
             <h2>Youtube sample</h2>
             <div class="ali">
@@ -85,7 +84,7 @@
                 </div>
             </div>
         </div>
-        
+        <div class="snapshot1"></div>
     </section>
     <section class="first-project">
         <div class="snapshot2"></div>
@@ -109,7 +108,6 @@
         
     </section>
     <section class="first-project">
-        <div class="snapshot3"></div>
         <div class="content-project1">
             <h2>Flex Box Game</h2>
             <div class="ali">
@@ -127,7 +125,7 @@
                 </div>
             </div>
         </div>
-        
+        <div class="snapshot3"></div>
     </section>
     <section class="about-me">
         <div class="about">
@@ -146,31 +144,33 @@
             </div>
         </div>
         <br>
-        <ul class="sort">
-            <li class="lang">Language <img src="images/down.png" alt="down" class="arrow">
-                <ul>
-                    <li class="langu"> <img src="images/js.png" alt="js"> javascript</li>
-                    <li class="langu"> <img src="images/html.png" alt="html"> HTML</li>
-                    <li class="langu"> <img src="images/css.png" alt="css"> css</li>
-                </ul>
-            </li>
-        </ul>
-        <ul class="sort">
-            <li class="lang">Framworks <img src="images/side.png" alt="side" class="arrow1"></li>
-            <li class="lang">Skills <img src="images/side.png" alt="side" class="arrow1"></li>
-        </ul>
+        <div class="sort">
+            <ul>
+                <li class="lang"> <span>Language</span>  <img src="images/down.png" alt="down" class="arrow">
+                    <ul class="langu1">
+                        <li class="langu"> <img src="images/js.png" alt="js"> javascript</li>
+                        <li class="langu"> <img src="images/html.png" alt="html"> html</li>
+                        <li class="langu"> <img src="images/css.png" alt="css"> css</li>
+                    </ul>
+                </li>
+                <li class="lang1">Framworks <img src="images/side.png" alt="side" class="arrow1"></li>
+                <li class="lang1">Skills <img src="images/side.png" alt="side" class="arrow1"></li>
+            </ul>
+        </div>
     </section>
     <footer>
-    <div class="contact">
-        <h2>Contact me</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    </div>
-    <form action="https://formspree.io/f/mjvlqgnz" method="post">
-        <input type="text" name="Name" id="name" placeholder="Name" maxlength="30" required><br>
-        <input type="email" name="email" id="email" placeholder="Email Address" required><br>
-        <input type="text" name="msg" id="msg" placeholder="Write Your Message Here..." maxlength="500" required>
-        <button type="submit" class="submit">Get In Touch</button>
-    </form>
+        <div class="foot">
+            <div class="contact">
+                <h2>Contact me</h2>
+                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+            <form action="https://formspree.io/f/mjvlqgnz" method="post">
+                <input type="text" name="Name" id="name" placeholder="Name" maxlength="30" required><br>
+                <input type="email" name="email" id="email" placeholder="Email Address" required><br>
+                <input type="textarea" name="msg" id="msg" placeholder="Write Your Message Here..." maxlength="500" required>
+                <button type="submit" class="submit" id="submit">Get In Touch</button>
+            </form>
+        </div>
     </footer>
 </body>
 
