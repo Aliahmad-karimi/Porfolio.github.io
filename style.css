@@ -589,12 +589,13 @@ footer .submit:active {
     display: none;
   }
 
-  .main-page .header .toolbar ul {
+  .header ul {
     list-style-type: none;
+    display: flex;
     margin-right: 154px;
   }
 
-  .main-page .header .toolbar li {
+  .main-page .header li {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -629,6 +630,14 @@ footer .submit:active {
     letter-spacing: 0.37px;
     font-style: bold;
     margin-bottom: 0;
+  }
+
+  .main-page .social-ul {
+    margin-top: -10px;
+  }
+
+  .main-page .social {
+    margin-top: -20px;
   }
 
   .container .welcome .details {
@@ -751,7 +760,7 @@ footer .submit:active {
   }
 
   .about-me .about .social .social-ul {
-    margin-top: -50px;
+    margin-top: -30px;
   }
 
   .about-me .sort {
@@ -779,6 +788,7 @@ footer .submit:active {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-left: -50px;
   }
 
   .about-me .sort .lang {
