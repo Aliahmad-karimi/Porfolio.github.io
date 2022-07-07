@@ -221,7 +221,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-bottom: 36px;
+  margin-bottom: 297px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -402,15 +402,6 @@ footer .contact p {
   padding: 0;
   display: flex;
   flex-direction: column;
-}
-
-.sort .lang {
-  margin-bottom: 297px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
 }
 
 .sort .lang1 {
@@ -745,6 +736,12 @@ footer .submit:active {
     justify-content: stretch;
   }
 
+  footer .contact p {
+    width: 569px;
+    text-align: center;
+    margin: 0;
+  }
+
   .about-me .about p {
     width: 447px;
     margin-top: -30px;
@@ -789,7 +786,7 @@ footer .submit:active {
     margin-bottom: 192px;
   }
 
-  about-me .sort .lang span {
+  .about-me .sort .lang span {
     margin-right: 100px;
   }
 
@@ -803,12 +800,6 @@ footer .submit:active {
     background-image: url(images/contact-form-big.svg);
     flex-direction: column;
     align-items: center;
-  }
-
-  footer .contact p {
-    width: 569px;
-    text-align: center;
-    margin: 0;
   }
 
   footer form #name {
