@@ -1,6 +1,6 @@
 .main-page {
   height: 718px;
-  width: 375px;
+  width: 100%;
   background: #fff;
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
@@ -565,7 +565,7 @@ footer .submit:active {
 
 @media only screen and (min-width: 768px) {
   body {
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -590,7 +590,6 @@ footer .submit:active {
   }
 
   .main-page .header .toolbar ul {
-    display: flex;
     list-style-type: none;
     margin-right: 154px;
   }
