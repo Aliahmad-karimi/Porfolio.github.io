@@ -680,30 +680,37 @@ footer .submit:active {
     width: 544px;
     height: 448px;
     background-repeat: round;
-    transform: all 0.4s ease;
-  }
-
-  .first-project .snapshot:hover {
-    width: 560px;
-    height: 460px;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot1 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot2 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot3 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
+  }
+
+  .first-project .snapshot:hover,
+  .first-project .snapshot1:hover,
+  .first-project .snapshot2:hover,
+  .first-project .snapshot3:hover
+  {
+    transform: scale(1.02);
+    border: 1px solid #000;
   }
 
   .first-project .content-project1 h2 {
