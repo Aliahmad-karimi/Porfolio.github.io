@@ -605,11 +605,23 @@ footer .submit:active {
     text-align: center;
     color: #344563;
     margin-right: 32px;
+    transition: all 0.4s ease;
+  }
+
+  .main-page .header li:hover {
+    font-size: 18px;
+    color: #6070ff;
   }
 
   .header .logo {
     margin-left: 155px;
     margin-top: 25px;
+    transition: all 0.4s ease;
+  }
+
+  .header .logo:hover {
+    font-size: 20px;
+    color: #000;
   }
 
   .context {
@@ -668,24 +680,36 @@ footer .submit:active {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot1 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot2 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
   }
 
   .first-project .snapshot3 {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transition: all 0.1s ease;
+  }
+
+  .first-project .snapshot:hover,
+  .first-project .snapshot1:hover,
+  .first-project .snapshot2:hover,
+  .first-project .snapshot3:hover {
+    transform: scale(1.02);
+    border: 1px solid #000;
   }
 
   .first-project .content-project1 h2 {
@@ -742,6 +766,14 @@ footer .submit:active {
     margin-right: 25px;
     width: 447px;
     justify-content: stretch;
+  }
+
+  .langu {
+    transition: all 0.2s ease;
+  }
+
+  .langu:hover {
+    transform: scale(1.1);
   }
 
   footer .contact p {
