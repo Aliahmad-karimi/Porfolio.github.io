@@ -707,8 +707,7 @@ footer .submit:active {
   .first-project .snapshot:hover,
   .first-project .snapshot1:hover,
   .first-project .snapshot2:hover,
-  .first-project .snapshot3:hover
-  {
+  .first-project .snapshot3:hover {
     transform: scale(1.02);
     border: 1px solid #000;
   }
@@ -768,12 +767,15 @@ footer .submit:active {
     width: 447px;
     justify-content: stretch;
   }
+  
   .langu {
     transition: all 0.2s ease;
   }
+  
   .langu:hover {
     transform: scale(1.1);
   }
+  
   footer .contact p {
     width: 569px;
     text-align: center;
