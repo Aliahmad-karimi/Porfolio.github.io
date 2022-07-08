@@ -605,11 +605,23 @@ footer .submit:active {
     text-align: center;
     color: #344563;
     margin-right: 32px;
+    transition: all 0.4s ease;
+  }
+
+  .main-page .header li:hover {
+    font-size: 18px;
+    color: #6070ff;
   }
 
   .header .logo {
     margin-left: 155px;
     margin-top: 25px;
+    transition: all 0.4s ease;
+  }
+
+  .header .logo:hover {
+    font-size: 20px;
+    color: #000;
   }
 
   .context {
@@ -668,6 +680,12 @@ footer .submit:active {
     width: 544px;
     height: 448px;
     background-repeat: round;
+    transform: all 0.4s ease;
+  }
+
+  .first-project .snapshot:hover {
+    width: 560px;
+    height: 460px;
   }
 
   .first-project .snapshot1 {
