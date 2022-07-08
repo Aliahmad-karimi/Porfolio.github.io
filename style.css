@@ -767,15 +767,15 @@ footer .submit:active {
     width: 447px;
     justify-content: stretch;
   }
-  
+
   .langu {
     transition: all 0.2s ease;
   }
-  
+
   .langu:hover {
     transform: scale(1.1);
   }
-  
+
   footer .contact p {
     width: 569px;
     text-align: center;
