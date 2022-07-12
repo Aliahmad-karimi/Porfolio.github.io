@@ -58,7 +58,7 @@ body {
   padding-top: 10px;
 }
 
-.toolbar ul {
+.main-page .header .tool-social {
   display: none;
 }
 
@@ -269,6 +269,7 @@ body {
   height: 220px;
   background: url("images/project2.png");
   border-radius: 8px;
+  order: -1;
 }
 
 .first-project .snapshot2 {
@@ -283,6 +284,7 @@ body {
   height: 220px;
   background: url("images/project4.png");
   border-radius: 8px;
+  order: -1;
 }
 
 .about-me {
@@ -556,6 +558,7 @@ footer .submit:hover {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
+  border-color: #fff;
 }
 
 footer .submit:active {
@@ -688,6 +691,7 @@ footer .submit:active {
     height: 448px;
     background-repeat: round;
     transition: all 0.1s ease;
+    order: 0;
   }
 
   .first-project .snapshot2 {
@@ -702,6 +706,7 @@ footer .submit:active {
     height: 448px;
     background-repeat: round;
     transition: all 0.1s ease;
+    order: 0;
   }
 
   .first-project .snapshot:hover,
