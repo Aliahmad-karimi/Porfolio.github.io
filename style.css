@@ -144,13 +144,6 @@ body {
   margin-bottom: 50px;
 }
 
-.first-project .snapshot {
-  width: 295px;
-  height: 220px;
-  background: url("images/project1.png");
-  border-radius: 8px;
-}
-
 .content-project1 {
   display: flex;
   flex-wrap: wrap;
@@ -262,6 +255,13 @@ body {
   line-height: 24px;
   text-align: center;
   color: #396df2;
+}
+
+.first-project .snapshot {
+  width: 295px;
+  height: 220px;
+  background: url("images/project1.png");
+  border-radius: 8px;
 }
 
 .first-project .snapshot1 {
